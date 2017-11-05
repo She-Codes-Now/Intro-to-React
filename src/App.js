@@ -5,10 +5,19 @@ import Form from './Form.js';
 import './App.css';
 
 class App extends Component {
-  handleItemAdded = (e) => {
-    e.preventDefault();
+  state = {
+    list: []
+  };
+  handleItemAdded = (item) => {
     console.log('The form was submitted');
-  }
+    const currentList = [
+      ...this.state.list,
+      item
+    ];
+    this.setState({
+      list: currentList
+    });
+  };
   render() {
     return (
       <div className="App">

@@ -63,6 +63,9 @@
   * Next, passing list items to List when something is added via Form
   	* Since Form and List are siblings, we will use App to keep track of list items and "add" events from the Form
   	* Start by moving the `handleItemAdded` function to App and passing it as props to Form
+  	* Next, update the Form with the following:
+  		* When there is a change on the `input` component (the user types), update the Form's state (make sure to add initial state here)
+  		* When there is a submit on the Form, it prevents reloading the page and calls `this.props.handleItemAdded`
   	* Commit 
 
 	
