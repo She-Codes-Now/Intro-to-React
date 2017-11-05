@@ -49,4 +49,6 @@
 	* What else should the `form` have in order to allow users to add items to the list?
 		* `input`
 		* `button` to submit
+	* Which brings us to commit
+	* Try it out in the browser!
 	
