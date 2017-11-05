@@ -5,6 +5,10 @@ import Form from './Form.js';
 import './App.css';
 
 class App extends Component {
+  handleItemAdded = (e) => {
+    e.preventDefault();
+    console.log('The form was submitted');
+  }
   render() {
     return (
       <div className="App">
@@ -17,7 +21,7 @@ class App extends Component {
         </p>
         <div className="Container">
           <List/>
-          <Form/>
+          <Form handleItemAdded={this.handleItemAdded}/>
         </div>
       </div>
     );

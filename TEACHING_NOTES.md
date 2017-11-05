@@ -62,5 +62,7 @@
   	* Let's create a new Item component, import it into List, and render a sample list item. It will use `this.props.text`, which List provides.
   * Next, passing list items to List when something is added via Form
   	* Since Form and List are siblings, we will use App to keep track of list items and "add" events from the Form
+  	* Start by moving the `handleItemAdded` function to App and passing it as props to Form
+  	* Commit 
 
 	
