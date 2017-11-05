@@ -20,3 +20,8 @@
 .App-intro {
   font-size: large;
 }
+
+.Container {
+  display: flex;
+  flex-wrap: nowrap;
+}

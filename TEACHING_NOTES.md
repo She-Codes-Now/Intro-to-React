@@ -37,4 +37,16 @@
 	* Question: What are the two languages we need to build a basic website, besides JavaScript?
 		* Ok, and what is HTML used for? What is CSS used for?
 		* What are some basic HTML elements?
+3. Intro to the List App
+	* Start at commit 
+	* User story: Users should be able to add text items to their list
+	* Add a new component called `Form` that is to the right of `List`
+		* Remember that it also needs a CSS file, and to be imported by `App`
+	* This bring us to commit
+	* Question: what HTML element can we use for our `Form` that's not a `div`?
+		* `form`: This is considered "semantic" HTML
+	* Add a `form` element to our `Form` component
+	* What else should the `form` have in order to allow users to add items to the list?
+		* `input`
+		* `button` to submit
 	
