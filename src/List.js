@@ -4,10 +4,16 @@ import Item from './Item.js';
 
 class List extends Component {
   render() {
+    const itemElements = [];
+    let counter = 0;
+    this.props.list.forEach((item) => {
+      counter++;
+      itemElements.push(<Item key={counter} text={item} />);
+    });
     return (
       <div className="List">
         My List:
-        <ul><Item text={'sample item'}/></ul>
+        <ul>{itemElements}</ul>
       </div>
     );
   }

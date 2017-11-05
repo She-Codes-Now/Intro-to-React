@@ -67,5 +67,8 @@
   		* When there is a change on the `input` component (the user types), update the Form's state (make sure to add initial state here)
   		* When there is a submit on the Form, it prevents reloading the page and calls `this.props.handleItemAdded`
   	* Commit 
+  * The final step is to pass the App's list of items to the List when it's rendered
+  	* Once the List has the items, we need to iterate over the items and create Item elements to render. Remember that each element in a list needs a unique key prop.
+  	* See commit 
 
 	

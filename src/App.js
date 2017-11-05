@@ -29,7 +29,7 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <div className="Container">
-          <List/>
+          <List list={this.state.list}/>
           <Form handleItemAdded={this.handleItemAdded}/>
         </div>
       </div>
