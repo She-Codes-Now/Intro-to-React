@@ -51,4 +51,8 @@
 		* `button` to submit
 	* Which brings us to commit
 	* Try it out in the browser!
+	  * Right now, entering text and clicking the button only reloads the page
+	  * This is because the default behavior of any button is to reload the page
+  * Next, let's start using the advantages of React by making it interactive.
+  	* Add an `onSubmit` handler to the Form component that console logs "the form was submitted"
 	
